@@ -1,0 +1,18 @@
+package topictwo;
+
+public class ExampleWrong {
+    public static void main(String[] args) {
+
+        int number = 3;
+
+        System.out.println(checkNumber(number));
+    }
+
+    private static String checkNumber(int number) {
+        if (number % 2 == 0){
+            return "é par";
+        } else {
+           return "é impar";
+        }
+    }
+}
